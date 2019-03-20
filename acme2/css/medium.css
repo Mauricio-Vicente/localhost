@@ -1,0 +1,30 @@
+@media only screen and (min-width: 45em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+    
+        /*-----NAVIGATION-----*/
+    nav ul li a {
+        display: inline-flex;
+        font-size: 1.5rem;
+        border: none;
+        padding: .6rem .8rem;
+    }
+    nav ul li:nth-child(1) {
+        margin-left: 15px;
+    }
+
+    nav button {display: none;}
+    nav ul.hide {display: inline-flex;}
+    nav ul li { display: inline-flex; }
+    /*   -------MAIN STYLES------*/
+    img.logo {max-width: 300px;}
+    div.folder { font-size: 1.5rem;}
+    img.folder { max-width: 100px;}
+    footer { font-size: 20px;}
+    h1 {font-size: 2rem;}
+    ul.rocket_ad { font-size:  1.6rem;}
+    section.recipies_reviews {position: relative;}
+    section.reviews {position: absolute; left: 500px;}
+    ul.reviews {font-size: 1.2rem;}
+    figcaption {font-size: 1.2rem;}
+
+}

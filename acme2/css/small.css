@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background-image: url("/acme/images/site/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-layer { background-color: #fff;}
+
+head {
+    background-color: white;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.left {
+    flex-grow: 1;    
+}
+.login-pic {
+    max-width: 25%;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.right a {
+    text-decoration: none;
+    color: black;
+}
+.right a:hover {
+    color: #808080;
+}
+
+h1 { 
+    font-family: "Roboto", sans-serif;
+    font-size: 250%;
+}
+.logo {
+    max-width: 40%;
+    height: auto;
+    padding-bottom: 6px;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+/*-----------Navigation------------*/  
+nav {
+    background: #de2226;
+    height: 70px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul, footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav li a {
+    padding: 1.25rem 1rem;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #990033;
+    background-color: #ffffff;
+}
+a:active {
+    color: #900033;
+}
+
+/*-----------MAIN------------*/
+h1 {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+
+    padding: 20px 20px 10px 30px;
+}
+main {
+    margin: 0px 15px;
+    padding-bottom: 1rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-bottom:  4px solid #000;
+}
+
+/*-----------BANNER-----------*/
+.banner {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+img.rocket {
+    width: 100%;
+    grid-column: 1 / span 4;
+    grid-row: 1  / 2;
+}
+ul.rocket_ad {
+    grid-column: 3 / span 2;
+    grid-row: 1 / 1;
+    list-style-type: none;
+    color: #990033;
+    font-size:  .9rem;
+    margin-left: 50px;
+    padding: 0 5px 0 0;
+    font-weight: bold;
+}
+ul.rocket_ad h2 { margin-bottom: 0px;}
+
+ul.rocket_ad img {
+    margin-top: 5px;
+    max-width: 155px;
+}
+/*-----------REVIEWS & RECIPES-----------*/
+.meio {
+    box-sizing: border-box;
+}
+
+h3 { margin: 30px 0px 20px 30px;}
+
+
+ul.reviews { 
+    margin: 5px 20px; 
+    font-size: 1.2rem;
+}
+div.recipeGallery {
+    display: grid;
+    grid-template-columns: repeat(2, 25%);
+    grid-gap: 25px;
+    text-align: left;
+    margin: 5px 50px 5px 35px;
+}
+div.recipeGallery img {
+    width: 150px;
+}
+figure.gallery {
+    margin: 0px;
+
+}
+figure  p  {
+    background-color: #fff;
+    padding-top: 10px;
+    color: #0000ee;
+}
+figcaption {
+    background-color: #fff;
+    padding: 10px 0 20px 0;
+    font-size: 1.2rem;
+    color: #0000ee;
+}
+figcaption a {
+    color:#0000ee;
+}
+/*--------FOOTER------------*/
+footer {
+    border-top: 4px solid black;
+    padding: 20px 20px 30px 20px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0px 15px 30px 15px;
+}
+footer li {
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 0.75rem;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:link {
+    color: black;
+}
+footer a:hover {
+    color: #900033;
+}
+footer p {
+    margin: 0;
+    font-size: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 0;
+}
+
